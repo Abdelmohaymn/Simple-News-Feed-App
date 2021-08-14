@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:title="Search"
+        android:defaultValue="technology"
+        android:inputType="text"
+        android:key="search"
+        android:selectAllOnFocus="true"
+        />
+
+    <EditTextPreference
+        android:title="Section"
+        android:defaultValue="technology"
+        android:inputType="text"
+        android:key="section"
+        android:selectAllOnFocus="true"
+        />
+    <EditTextPreference
+        android:title="limit"
+        android:defaultValue="10"
+        android:inputType="numberDecimal"
+        android:key="limit"
+        android:selectAllOnFocus="true"
+        />
+
+    <ListPreference
+        android:title="Order By"
+        android:key="orderBy"
+        android:defaultValue="newest"
+        android:entries="@array/entriesPref"
+        android:entryValues="@array/entriesValuePref"
+        />
+
+</PreferenceScreen>

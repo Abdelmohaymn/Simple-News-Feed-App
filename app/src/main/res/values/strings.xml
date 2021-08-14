@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">News Feed App</string>
+
+    <string name="order_by_newest">Newest</string>
+    <string name="order_by_oldest">Oldest</string>
+    <string name="order_by_relevance">Relevance</string>
+
+    <string name="order_by_newest_value">newest</string>
+    <string name="order_by_oldest_value">oldest</string>
+    <string name="order_by_relevance_value">relevance</string>
+
+    <string-array name="entriesPref">
+        <item>@string/order_by_newest</item>
+        <item>@string/order_by_oldest</item>
+        <item>@string/order_by_relevance</item>
+    </string-array>
+
+    <string-array name="entriesValuePref">
+        <item>@string/order_by_newest_value</item>
+        <item>@string/order_by_oldest_value</item>
+        <item>@string/order_by_relevance_value</item>
+    </string-array>
+
+</resources>
